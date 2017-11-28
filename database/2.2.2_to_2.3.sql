@@ -1,3 +1,4 @@
+USE ospos;
 CREATE TABLE IF NOT EXISTS `ospos_stock_locations` (
   `location_id` int(11) NOT NULL AUTO_INCREMENT,
   `location_name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,

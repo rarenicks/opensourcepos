@@ -1,3 +1,4 @@
+USE ospos;
 -- alter sessions table
 DROP TABLE `ospos_sessions`;
 

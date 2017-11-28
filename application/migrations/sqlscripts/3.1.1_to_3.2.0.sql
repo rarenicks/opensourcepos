@@ -1,7 +1,7 @@
 --
 -- Add support for office menu group
 --
-
+USE ospos;
 ALTER TABLE `ospos_grants`
   ADD COLUMN `menu_group` varchar(32) DEFAULT 'home';
 

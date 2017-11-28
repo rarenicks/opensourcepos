@@ -1,4 +1,5 @@
 -- alter quantity fields to be all decimal
+USE ospos;
 
 ALTER TABLE `ospos_items`
  MODIFY COLUMN `reorder_level` decimal(15,3) NOT NULL DEFAULT '0',

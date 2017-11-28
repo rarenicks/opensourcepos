@@ -1,5 +1,5 @@
 -- alter quantity fields to be all decimal
-
+USE ospos;
 ALTER TABLE `ospos_items`
   ADD COLUMN `stock_type` TINYINT(2) NOT NULL DEFAULT 0,
   ADD COLUMN `item_type` TINYINT(2) NOT NULL DEFAULT 0;

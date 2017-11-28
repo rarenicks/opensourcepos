@@ -1,4 +1,5 @@
 -- alter permissions table
+USE ospos;
 DROP TABLE `ospos_permissions`;
 
 CREATE TABLE `ospos_permissions` (

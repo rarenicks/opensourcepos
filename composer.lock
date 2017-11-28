@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35a55acb9ed53dbac86383781fa12b13",
-    "content-hash": "df567f98466ce2053faf0a1d0475afa8",
+    "content-hash": "2e34a0c173a47d5f39d714465612eff9",
     "packages": [
         {
             "name": "codeigniter/framework",
-            "version": "3.1.5",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3"
+                "reference": "7e4f63cd4b792e7dc2dc4b8b0183a6072a3f9462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3",
-                "reference": "6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/7e4f63cd4b792e7dc2dc4b8b0183a6072a3f9462",
+                "reference": "7e4f63cd4b792e7dc2dc4b8b0183a6072a3f9462",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +37,7 @@
             ],
             "description": "The CodeIgniter framework",
             "homepage": "https://codeigniter.com",
-            "time": "2017-06-19 08:33:58"
+            "time": "2017-09-25T16:43:58+00:00"
         },
         {
             "name": "dompdf/dompdf",
@@ -99,7 +98,7 @@
             ],
             "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
             "homepage": "https://github.com/dompdf/dompdf",
-            "time": "2016-05-11 00:36:29"
+            "time": "2016-05-11T00:36:29+00:00"
         },
         {
             "name": "ins0/google-measurement-php-client",
@@ -111,7 +110,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ins0/google-measurement-php-client/zipball/415cabca0c6d83cd0bd6a8ed6fb695b35f892018",
+                "url": "https://api.github.com/repos/ins0/google-measurement-php-client/zipball/2b3aef2375837339f5b2bfe88e76994481f86264",
                 "reference": "2b3aef2375837339f5b2bfe88e76994481f86264",
                 "shasum": ""
             },
@@ -152,20 +151,20 @@
                 "google",
                 "measurement"
             ],
-            "time": "2016-09-07 19:39:27"
+            "time": "2016-09-07T19:39:27+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.10",
+            "version": "v2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +199,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:27:32"
+            "time": "2017-09-27T21:40:39+00:00"
         },
         {
             "name": "phenx/php-font-lib",
@@ -234,7 +233,7 @@
             ],
             "description": "A library to read, parse, export and make subsets of different types of font files.",
             "homepage": "https://github.com/PhenX/php-font-lib",
-            "time": "2015-05-06 20:02:39"
+            "time": "2015-05-06T20:02:39+00:00"
         },
         {
             "name": "phenx/php-svg-lib",
@@ -268,7 +267,7 @@
             ],
             "description": "A library to read, parse and export to PDF SVG files.",
             "homepage": "https://github.com/PhenX/php-svg-lib",
-            "time": "2015-05-06 18:49:49"
+            "time": "2015-05-06T18:49:49+00:00"
         },
         {
             "name": "tamtamchik/namecase",
@@ -325,7 +324,7 @@
                 "strings",
                 "tamtamchik"
             ],
-            "time": "2016-02-06 10:46:26"
+            "time": "2016-02-06T10:46:26+00:00"
         }
     ],
     "packages-dev": [
@@ -357,7 +356,7 @@
                 "BSD"
             ],
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2012-08-25 12:49:29"
+            "time": "2012-08-25T12:49:29+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -407,7 +406,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         }
     ],
     "aliases": [],

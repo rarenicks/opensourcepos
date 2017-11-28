@@ -2,7 +2,7 @@
 --
 -- Table structure for table `ospos_app_config`
 --
-
+USE ospos;
 CREATE TABLE `ospos_app_config` (
   `key` varchar(50) NOT NULL,
   `value` varchar(500) NOT NULL,

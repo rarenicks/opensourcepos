@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 			},
 			targetdistjqueryui: {
 				options: {
-					srcPrefix: 'public/bower_components/jquery-ui',
+					srcPrefix: 'public/dist/jquery-ui',
 					destPrefix: 'public/dist'
 				},
 				files: {
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 			},
 			targetdistbootswatch: {
 				options: {
-					srcPrefix: 'public/bower_components/bootswatch',
+					srcPrefix: 'public/dist/bootswatch',
 					destPrefix: 'public/dist'
 				},
 				files: {
@@ -133,7 +133,7 @@ module.exports = function(grunt) {
 			js: {
 				options: {
 					scriptTemplate: '<script type="text/javascript" src="{{ path }}"></script>',
-					openTag: '<!-- start js template tags -->',
+					openTag: '<!-- stcd b	art js template tags -->',
 					closeTag: '<!-- end js template tags -->',
 					ignorePath: '../../../public/'
 				},
@@ -182,14 +182,14 @@ module.exports = function(grunt) {
 			}
 		},
 		clean: {
-			license: ['public/bower_components/**/bower.json']
+			license: ['public/dist/**/bower.json']
 		},
 		license: {
 			all: {
 				// Target-specific file lists and/or options go here. 
 				options: {
 					// Target-specific options go here. 
-					directory: 'public/bower_components',
+					directory: 'public/dist',
 					output: 'public/license/bower.LICENSES'
 				}
 			}
